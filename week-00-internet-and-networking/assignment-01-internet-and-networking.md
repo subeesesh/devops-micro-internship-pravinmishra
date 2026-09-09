@@ -23,18 +23,15 @@ Take a screenshot of your interaction showing:
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
-
 ![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
 
-
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a networking protocol is a set of rules that devices follow to communicate with each other. A simple example is how people follow rules while having a conversation so that both sides understand each other.
+
 
 ---
 
@@ -58,8 +55,8 @@ Write a short explanation (**100–150 words**) that includes:
 💡 **Tip:** You may use ChatGPT (as demonstrated in Task 1) to refine your explanation.
 
 ## Answer
+When a user anywhere in the world opens the EpicReads website, the request is divided into small pieces of data called packets. Packet switching allows these packets to travel across different networks and routes before reaching the server in Finland. The server has an IP address that identifies its location on the network. TCP/IP provides the communication rules that allow the user's device and the server to exchange data reliably across the Internet. When the user accesses EpicReads through a browser, HTTP or HTTPS is used to request and transfer web pages and other resources. HTTPS is the secure version of HTTP because it encrypts the communication between the user's browser and the website. Together, packet switching, IP addressing, TCP/IP, and HTTP/HTTPS allow users globally to access EpicReads.
 
-Add your answer here...
 
 ---
 
@@ -94,26 +91,24 @@ Save your diagram image in the `screenshots` folder and update the file name bel
 ![Application Architecture Diagram](screenshots/task-3-diagram.png)
 
 
-Replace `task-3-diagram.png` with your actual diagram file name.
-
 ---
 
 ## Technologies Used
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+HTML / CSS
+JavaScript / React
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+Python / Django
+Node.js / Express
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+MySQL
+PostgreSQL
 
 ---
 
@@ -142,7 +137,8 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) translates human-readable domain names such as `epicreads.com` into IP addresses that computers use to locate servers. For EpicReads, an **A record** should be used because the given address `52.172.142.222` is an IPv4 address. The A record connects the domain name to this IPv4 address, allowing users to enter `epicreads.com` instead of remembering the numerical IP address.
+
 
 ---
 
@@ -216,11 +212,11 @@ Add the following credit note at the end of your post **(If you are DMI Cohort 3
 
 Add the following credit note at the end of your post **(If you are DMI Self-paced track student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=self-paced**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/subeesesh.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=self-paced**
 
 Add the following credit note at the end of your post **(If you are DMI Campus student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=campus**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/subeesesh.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=campus**
 
 Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your public DMI progress page (your graded badge page).
 ---
@@ -247,19 +243,16 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
-
----
+I found the basic concepts of IP addresses, domains, and application layers relatively easy to understand once I connected them with real-world examples. Setting up and using VS Code was also straightforward because I could immediately see the results of the commands I ran.
 
 ### What was difficult?
 
-Add your answer here...
-
----
+Understanding how different networking concepts work together was more difficult than learning each definition separately. Concepts such as packet switching, TCP/IP, HTTP/HTTPS, and DNS are connected, so understanding the complete flow required looking at them as parts of the same system.
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I will focus more on understanding concepts through practical examples instead of only memorizing definitions. I will also try to document what I learn and create proof of work as I progress.
+
 
 ---
 
