@@ -155,7 +155,7 @@ The biggest difference between my current version and my 2.0 version was not tha
 
 Paste your link here:
 
-`Add your URL here`
+https://lnkd.in/p/gABpxHBK
 
 ---
 
